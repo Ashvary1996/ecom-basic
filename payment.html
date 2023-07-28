@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="/style//payment.css" />
+  </head>
+
+  <body>
+    <h1>Payment Gateway</h1>
+    <i><p>All payments will proceed Securily.</p></i>
+    <div id="container">
+      <h1>Payment Details</h1>
+      <form id="paymentForm">
+        <div class="form-group">
+          <label for="cardNumber">Card Number:</label>
+          <input type="text" id="cardNumber" name="cardNumber" required />
+        </div>
+        <div class="form-group">
+          <label for="cardHolder">Card Holder:</label>
+          <input type="text" id="cardHolder" name="cardHolder" required />
+        </div>
+        <div class="form-group">
+          <label for="expiryDate">Expiry Date:</label>
+          <input type="text" id="expiryDate" name="expiryDate" required />
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" required />
+        </div>
+        <div class="form-group">
+          <input class="paybtn" type="submit" value="Pay Now" />
+        </div>
+      </form>
+    </div>
+  </body>
+  <script type="module" src="/scripts/payment.js"></script>
+</html>

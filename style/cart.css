@@ -1,0 +1,123 @@
+body {
+    background-color: aliceblue;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid brown;
+
+}
+
+#cartcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+
+    margin: auto;
+    border: 2px solid brown;
+    gap: 10px;
+
+}
+
+
+
+.cbox {
+    overflow: hidden;
+    padding: 10px;
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 320px;
+    height: 430px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+
+}
+
+.cimg {
+    width: 95%;
+    height: 300px;
+
+}
+
+.ctitle {
+    font-size: 12px;
+    width: 280px;
+}
+
+
+.cbtnCart {
+    border: none;
+}
+
+.cbtnCart:hover {
+    background-color: red;
+    color: white;
+
+}
+
+
+.n1 {
+    font-size: 22px;
+    text-decoration: none;
+    color: white
+}
+
+.n1:hover {
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(2, 174, 174);
+
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(94, 66, 32, 0.784);
+    position: sticky;
+    top: 1px;
+    color: white;
+    margin-bottom: 10px;
+
+
+}
+
+#buybar {
+    width: 400px;
+    border: 5px solid rgb(255, 174, 0);
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#count {
+    text-align: left;
+}
+
+#orderBtn>a {
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+
+    color: black;
+    text-decoration: none;
+}
+
+#orderBtn:hover {
+    background-color: rgb(111, 209, 24);
+    color: white;
+
+    cursor: pointer;
+
+}
+
+#orderBtn>a:hover {
+
+    color: white;
+
+
+}

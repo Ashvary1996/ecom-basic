@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1575722290270-626b0208df99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80);
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.sgn {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+
+    /* border: 3px solid green; */
+}
+
+form {
+    color: white;
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 30%;
+    padding: 20px;
+    gap: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1614292253389-bd2c1f89cd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+
+
+}
+
+input {
+    height: 30px;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 178);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    width: 40%;
+    margin: auto;
+    font-size: larger;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(59, 37, 9, 0.847);
+    position: sticky;
+    top: 1px;
+    font-size: 20px;
+
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(214, 231, 57);
+}
+
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.alogUser {
+    /* margin-top: auto; */
+    /* margin-left: 100px; */
+    text-align: center;
+    font-size: 15px;
+}
+
+.alogUser>a {
+    font-size: 17px;
+}
+
+.alogUser>a:hover {
+    color: rgb(18, 146, 209);
+    font-size: 19px;
+
+}
+
+.red {
+    margin: auto;
+    display: none;
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
+
+.red>a {
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
+
+.red>a:hover {
+    color: rgb(0, 106, 255);
+}

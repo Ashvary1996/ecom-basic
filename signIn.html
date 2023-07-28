@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUP-Platform</title>
+    <link rel="stylesheet" href="/style/signup.css" />
+  </head>
+
+  <body>
+    <nav>
+      <!-- <p><a href="/index.html">Home</a></p> -->
+      <p><a href="/signIn.html">Sign-In</a></p>
+      <p><a href="/index.html">Sign-Up</a></p>
+    </nav>
+
+    <div>
+      <h1 class="sgn">Log-In to fakeStore</h1>
+      <div class="container">
+        <form id="form" action="">
+          User Name:
+          <input id="login_name" type="text" placeholder="name" /> <br />
+
+          Password:
+          <input
+            id="login_password"
+            type="password"
+            placeholder="password"
+          /><br />
+
+          <button id="c_login">Log-In</button>
+          <p class="alogUser red">
+            Wrong Details / <a href="/signIn.html"> Sign-Up</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script src="./scripts/signIn.js"></script>
+  </body>
+</html>

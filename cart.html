@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="/index.html" />
+    <link rel="stylesheet" href="/style/cart.css" />
+</head>
+
+<body>
+    <nav>
+        <p class="n1"><a class="n1" href="/home.html">Go to home</a></p>
+        <p class="n1" id="userLoggedInName">Sign-In</p>
+    </nav>
+    <div id="container">
+        <div id="cartcontainer"></div>
+        <div id="buybar">
+            <h1>Cart Details</h1>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Total Items :</td>
+                        <td>
+                            <p id="count">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Total Price :</td>
+                        <td>
+                            <p id="price">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Discount :</td>
+                        <td>
+                            <p id="discount">10%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Total Amount:</td>
+                        <td>
+                            <p id="totalAmount">10%</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <i>
+                <p id="save"></p>
+            </i>
+
+            <button id="orderBtn">
+                <a href="/payment.html">Proceed to Buy</a>
+            </button>
+        </div>
+    </div>
+</body>
+<script src="/scripts/cart.js"></script>
+
+</html>
